@@ -16,16 +16,6 @@ BDGNet is designed for bi-temporal remote sensing change detection, where reliab
 
 ![Difference-Guided Directional Scan](pictures/dgds.png)
 
-## Results
-
-| Dataset | Precision | Recall | F1 | IoU | OA | mIoU | SeK |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| SYSU-CD | 86.74 | 84.53 | 85.62 | 74.86 | - | - | - |
-| LEVIR-CD | 94.75 | 92.36 | 93.54 | 87.87 | - | - | - |
-| WHU-CD | 97.86 | 94.30 | 96.04 | 92.39 | - | - | - |
-| SECOND | - | - | 64.13 | - | 91.28 | 74.96 | 26.53 |
-| SYSU-CD three-seed | - | - | 85.66 +/- 0.20 | 74.92 +/- 0.30 | - | - | - |
-
 ### Qualitative Comparison on SYSU-CD
 
 ![Qualitative comparison on SYSU-CD](pictures/sysu_qualitative.png)
@@ -42,9 +32,6 @@ BDGNet is designed for bi-temporal remote sensing change detection, where reliab
 
 ![Qualitative ablation](pictures/ablation.png)
 
-### Three-Seed Stability
-
-![Three-seed stability](pictures/stability.png)
 
 ### Semantic Change Detection on SECOND
 
